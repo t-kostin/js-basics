@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: blanchedalmond;
+}
+.basket {
+    display: flex;
+    height: 95px;
+    width: 395px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+.basket__empty {
+    display: flex;
+    height: 95px;
+    width: 100px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.button__clear {
+    height: 50px;
+}
+.content {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: blanchedalmond;
+}
+.card {
+    height: 350px;
+    width: 290px;
+    margin: 30px;
+    padding: 5px;
+    background-color: burlywood;
+}
