@@ -1,0 +1,54 @@
+.board {
+    border-collapse: collapse;
+}
+
+.top_label,
+.right_label,
+.bottom_label,
+.left_label,
+.corner {
+    padding: 0px;
+    background-image: url(img/border.jpg);
+}
+
+.top_label {
+    width: 80px;
+    height: 20px;
+    transform: rotate(180deg);
+}
+
+.right_label {
+    width: 20px;
+    height: 80px;
+    transform: rotate(180deg);
+}
+
+.left_label {
+    width: 20px;
+    height: 80px;
+}
+
+.bottom_label {
+    width: 80px;
+    height: 20px;
+}
+
+.corner {
+    width: 20px;
+    height: 20px;
+}
+
+.black,
+.white {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+}
+
+.white {
+    background-image: url(img/white.jpg);
+}
+
+.black {
+    background-image: url(img/black.jpg);
+}
