@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task-1_2.css">
+    <script src="task-1_2.js" defer></script>
+    <title>Tasks 1 & 2</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="basket" class="basket">
+            <div class="basket__position">
+                <div class="basket__item">Item</div>
+                <div class="basket__quantity">Quantity</div>
+                <div class="basket__price">Price</div>
+                <div class="basket__total">Total</div>
+                <div class="basket__button">Button</div>
+            </div>
+        </div>
+        <div class="clear_basket">
+            <button type="button" class="button__clear" onclick="basket.clear()">
+                Clear basket
+            </button>
+        </div>
+    </div>
+    </div>
+    <div id="catalog" class="content"></div>
+    <div id="gallery" class="hidden">
+        <div class="wrapper__screen"></div>
+        <img class="wrapper__close" src="img/close-button.png" alt="close">
+        <img class="wrapper__left" src="img/left-arrow.png" alt="left">
+        <img class="wrapper__right" src="img/right-arrow.png" alt="right">
+        <img class="wrapper__image" src="img/large/apple-iphone-12-1.png" alt="image">
+    </div>
+</body>
+
+</html>
